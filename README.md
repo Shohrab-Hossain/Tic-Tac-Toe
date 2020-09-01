@@ -3,7 +3,7 @@
 
 
 <p align=center>
-    <img src="tic-tac-toe.png" alt="Birds" width="25%" style="; min-width:150px; background-color: #F8F9F9; border-radius: 16px; padding: 12px 0; box-shadow: 3px 3px 9px gray" />
+    <img src="tic-tac-toe.png" alt="Board" width="25%" style="; min-width:150px; background-color: #F8F9F9; border-radius: 16px; padding: 12px 0; box-shadow: 3px 3px 9px gray" />
 </p>
 
 
