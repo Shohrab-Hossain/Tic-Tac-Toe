@@ -23,7 +23,7 @@ The **`src`** directory contains all of the source code. In this directory there
 The *`main.py`* file is executed first. That calls the function below:
 
 ```python
-start_play()
+start_play() 
 ```
 
 This funtion first initiate a dictionary *`game_data`* that holds all the move of the game.  Then the below functions are called one by one.
