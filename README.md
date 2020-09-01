@@ -14,7 +14,7 @@ The *player vs computer mode* is so intelligent that it can predict almost all o
 
 The **`src`** directory contains all of the source code. In this directory there is **module** named as *`lib.py`*  that contains all the funstions and required data for the game.
 
-
+<br/>
 
 ### Player vs Player Mode:
 
@@ -28,7 +28,7 @@ start_play()
 
 This funtion first initiate a dictionary *`game_data`* that holds all the move of the game.  Then the below functions are called one by one.
 
-
+<br/>
 
 ```python
 game_type_selection()
@@ -36,7 +36,7 @@ game_type_selection()
 
 This function lets the user to select how he **wants to play**, eather with another player or with computer. 
 
-
+<br/>
 
 ```python
 character_selection()
@@ -44,7 +44,7 @@ character_selection()
 
 This function lets the user to select a **character** for him, and also lets the second player to select another one. While playing against computer, the character for the computer is auto selected depending on the character that the user selected for him.
 
-
+<br/>
 
 ```python
 print_board()
@@ -52,7 +52,7 @@ print_board()
 
 This function prints a **tic-tac-toe board** with data from the dictionary  *`game_data`*. 
 
-
+<br/>
 
 Then a **while loop** runs, for total 9times, that allows the player and computer to provide there move one by one. In each cycle, the function is called: 
 
@@ -62,11 +62,11 @@ get_winner()
 
 This function checks the dictionary *`game_data`* to find the winner based on the *game rules*.
 
-
+<br/>
 
 Any time user can leave the game, while asked for his move, using the command **`exit`**.
 
-
+<br/>
 
 ### Player vs Computer Mode:
 
@@ -80,7 +80,7 @@ computer_brain()
 
 This function does all the logical calculation to generate a move for the computer. This decision making is done in several steps, for that the following functions are used. All the functions are coming from the **module** named *`computerLib.py`* 
 
-
+<br/>
 
 ```python
 checkWinningMove()
@@ -88,7 +88,7 @@ checkWinningMove()
 
 This function checks for the move that can make a win for the computer. This function is also checks for the move that can block the win of the player.
 
-
+<br/>
 
 ```python
 triangleAttack()
@@ -96,7 +96,7 @@ triangleAttack()
 
 This function creates a traingle attack, that creates oppurtunities for the computer to win.
 
-
+<br/>
 
 ```python
 firstMethod()
@@ -104,7 +104,7 @@ firstMethod()
 
 This function helps to select move based on several criteria.
 
-
+<br/>
 
 ```python
 findBlank()
@@ -112,7 +112,7 @@ findBlank()
 
 This function finds blank position on the board, so that the computer can make move to that blank position.
 
-
+<br/>
 
 ---
 
