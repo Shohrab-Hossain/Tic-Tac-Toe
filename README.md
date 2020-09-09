@@ -8,7 +8,7 @@
 
 
 
-This **Tic-Tac-Toe** game is designned using **`Python`**. The game can be played between [*two player(player vs player mode)*](#-player-vs-player-mode) or with [*computer(player vs computer mode)*](#-player-vs-computer-mode). 
+This **Tic-Tac-Toe** game is designned with **`Python`**. The game can be played between [*two player(player vs player mode)*](#-player-vs-player-mode) or with [*computer(player vs computer mode)*](#-player-vs-computer-mode). 
 
 The *player vs computer mode* is so intelligent that it can predict almost all of the possible ways that human brain can think of, which make it difficult for any player to defeat the computer. There is a **package** named **`Computer`** that performs as a *brain* while playing with computer and does all the *logical calculation*.
 
