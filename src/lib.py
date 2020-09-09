@@ -77,27 +77,34 @@ def print_board(game_data):
 
 def get_winner(game_data, player1_char, player2_char):
         # checking Rows
-        if game_data['b1'] == game_data['b2'] == game_data['b3']:
+        if game_data['b1'] == game_data['b2'] == game_data['b3'] and game_data['b1'] != ' ':
             winner=game_data['b1']
-        elif game_data['b4'] == game_data['b5'] == game_data['b6']:
+            winner_board=['1', '2', '3']
+        elif game_data['b4'] == game_data['b5'] == game_data['b6'] and game_data['b4'] != ' ':
             winner=game_data['b4']
-        elif game_data['b7'] == game_data['b8'] == game_data['b9']:
+            winner_board=[4, '5', '6']
+        elif game_data['b7'] == game_data['b8'] == game_data['b9'] and game_data['b7'] != ' ':
             winner=game_data['b7']
-        
-        # checking Columns
-        elif game_data['b1'] == game_data['b4'] == game_data['b7']:
-            winner=game_data['b1']
-        elif game_data['b2'] == game_data['b5'] == game_data['b8']:
-            winner=game_data['b2']
-        elif game_data['b3'] == game_data['b6'] == game_data['b9']:
-            winner=game_data['b3']
-        
-        # checking Diagonals
-        elif game_data['b1'] == game_data['b5'] == game_data['b9']:
-            winner=game_data['b1']
-        elif game_data['b3'] == game_data['b5'] == game_data['b7']:
-            winner=game_data['b3']
+            winner_board=['7', '8', '9']
 
+        # checking Columns
+        elif game_data['b1'] == game_data['b4'] == game_data['b7'] and game_data['b1'] != ' ':
+            winner=game_data['b1']
+            winner_board=['1', '4', '7']
+        elif game_data['b2'] == game_data['b5'] == game_data['b8'] and game_data['b2'] != ' ':
+            winner=game_data['b2']
+            winner_board=['2', '5', '8']
+        elif game_data['b3'] == game_data['b6'] == game_data['b9'] and game_data['b3'] != ' ':
+            winner=game_data['b3']
+            winner_board=['3', '6', '9']
+
+        # checking Diagonals
+        elif game_data['b1'] == game_data['b5'] == game_data['b9'] and game_data['b1'] != ' ':
+            winner=game_data['b1']
+            winner_board=['1', '5', '9']
+        elif game_data['b3'] == game_data['b5'] == game_data['b7'] and game_data['b3'] != ' ':
+            winner=game_data['b3']
+            winner_board=['3', '5', '7']
         else:
             winner='none'
         
