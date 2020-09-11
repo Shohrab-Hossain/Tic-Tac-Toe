@@ -8,11 +8,12 @@
 
 
 
-This **Tic-Tac-Toe** game is designned with **`Python`**. The game can be played between [*two player(player vs player mode)*](#-player-vs-player-mode) or with [*computer(player vs computer mode)*](#-player-vs-computer-mode). 
+
+This **Tic-Tac-Toe** game is designed with **`Python`**. The game can be played between [*two player(player vs player mode)*](#-player-vs-player-mode) or with [*computer(player vs computer mode)*](#-player-vs-computer-mode). 
 
 The *player vs computer mode* is so intelligent that it can predict almost all of the possible ways that human brain can think of, which make it difficult for any player to defeat the computer. There is a **package** named **`Computer`** that performs as a *brain* while playing with computer and does all the *logical calculation*.
 
-The **`src`** directory contains all of the source code. In this directory there is **module** named as *`lib.py`*  that contains all the funstions and required data for the game.
+The **`src`** directory contains all of the source code. In this directory there is **module** named as *`lib.py`*  that contains all the functions and required data for the game.
 
 <br/>
 
@@ -26,7 +27,7 @@ The *`main.py`* file is executed first. That calls the function below:
 start_play() 
 ```
 
-This funtion first initiate a dictionary *`game_data`* that holds all the move of the game.  Then the below functions are called one by one.
+This function first initiate a dictionary *`game_data`* that holds all the move of the game.  Then the below functions are called one by one.
 
 <br/>
 
@@ -34,7 +35,7 @@ This funtion first initiate a dictionary *`game_data`* that holds all the move o
 game_type_selection()
 ```
 
-This function lets the user to select how he **wants to play**, eather with another player or with computer. 
+This function lets the user to select how he **wants to play**, either with another player or with computer. 
 
 <br/>
 
@@ -94,7 +95,7 @@ This function checks for the move that can make a win for the computer. This fun
 triangleAttack()
 ```
 
-This function creates a traingle attack, that creates oppurtunities for the computer to win.
+This function creates a triangle attack, that creates opportunities for the computer to win.
 
 <br/>
 
@@ -119,4 +120,3 @@ This function finds blank position on the board, so that the computer can make m
 #### Try live demo of the game
 
 [**click here**](https://www.google.com/search?q=tic+tac+toe)
-
