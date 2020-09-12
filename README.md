@@ -119,4 +119,4 @@ This function finds blank position on the board, so that the computer can make m
 
 #### Try live demo of the game
 
-[**click here**](https://www.google.com/search?q=tic+tac+toe)
+[**Play Game**](https://tic-tac-toe-sh.herokuapp.com)
